@@ -1,1 +1,1 @@
-With 0.6832374930381775% confidence, the predicted pose is Mountain
+With 0.732134997844696% confidence, the predicted pose is Triangle
