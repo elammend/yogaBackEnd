@@ -21,7 +21,6 @@ def convert_and_save(b64_string):
 
 @app.route('/',methods = ['GET'])
 def hello_world():
-    print(cv2)
     return 'Hello World!'
 
 @app.route('/getSkeleton', methods = ['POST'])
