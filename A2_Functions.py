@@ -306,7 +306,7 @@ def scale_keypoints(path):
     frameHeight = image1.shape[0]
 
     t = time.time()
-    net = cv2.dnn.readNetFromCaffe(protoFile, weightsFile)
+    net = cv2.dnn.readNet(protoFile, weightsFile)
 
     # Fix the input Height and get the width according to the Aspect Ratio
     inHeight = 368
