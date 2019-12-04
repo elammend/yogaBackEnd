@@ -19,7 +19,7 @@ def convert_and_save(b64_string):
     print(os.getcwd() + str(t))
     img.save('fromclient.jpg')
 
-@app.route('/')
+@app.route('/',methods = ['GET'])
 def hello_world():
     print(cv2)
     return 'Hello World!'
